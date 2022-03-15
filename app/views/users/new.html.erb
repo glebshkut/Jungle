@@ -2,12 +2,10 @@
 
 <div class="registation-form">
   <%= form_for :user, url: '/users' do |f| %>
-    <div>
-      Name: <%= f.text_field :name %>
-      Email: <%= f.text_field :email %>
-      Password: <%= f.password_field :password %>
-      Password Confirmation: <%= f.password_field :password_confirmation %>
-      <%= f.submit "Submit" %>
-    </div>
+      <div class="sign-up-row">Name: <%= f.text_field :name %></div>
+      <div class="sign-up-row">Email: <%= f.text_field :email %></div>
+      <div class="sign-up-row">Password: <%= f.password_field :password %></div>
+      <div class="sign-up-row">Password Confirmation: <%= f.password_field :password_confirmation %></div>
+      <div class="sign-up-row" id="submit"><%= f.submit "Submit" %></div>
   <% end %>
 </div>
