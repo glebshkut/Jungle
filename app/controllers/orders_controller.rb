@@ -11,6 +11,7 @@ class OrdersController < ApplicationController
     order  = create_order(charge)
 
     if order.valid?
+      flash[:success] = t('flash.order.success')
       empty_cart!
       redirect_to order, notice: 'Your Order has been placed.'
     else
