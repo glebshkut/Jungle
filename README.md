@@ -4,6 +4,10 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Screenshots
 ### Log In
+<kbd><img src="https://github.com/glebshkut/Jungle/blob/master/docs/login.png?raw=true"></kbd>
+
+
+
 ![Log In](https://github.com/glebshkut/Jungle/blob/master/docs/login.png?raw=true)
 ### Products
 ![Products](https://github.com/glebshkut/Jungle/blob/master/docs/products.png?raw=true)
